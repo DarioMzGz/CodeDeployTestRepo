@@ -1,6 +1,6 @@
 #!/bin/bash
-isExistApp = `pgrep apache2`
+isExistApp = `pgrep httpd`
 if [[ -n  $isExistApp ]]; then
-    sudo service apache2 stop        
+    sudo service httpd stop        
 fi
 
