@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo service httpd start
-
+echo "Server Start" >> start.txt
