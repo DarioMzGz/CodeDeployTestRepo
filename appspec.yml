@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /opt/codedeploy-agent/CodeDeployTestRepo/
-    destination: /stack/wordpress/wp-content/themes/
+  - source: /
+    destination: ~/stack/wordpress/wp-content/themes/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
