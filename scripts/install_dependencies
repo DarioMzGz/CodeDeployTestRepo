@@ -1,2 +1,3 @@
 #!/bin/bash
+cd ~
 git clone https://github.com/DarioMzGz/CodeDeployTestRepo.git
