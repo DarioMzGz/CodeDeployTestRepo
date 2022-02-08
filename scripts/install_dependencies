@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo apt-get install -y git
 cd stack/wordpress/wp-content/themes/website
+git init
 git pull
