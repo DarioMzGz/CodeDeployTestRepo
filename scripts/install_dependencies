@@ -1,4 +1,4 @@
 #!/bin/bash
+cd
 cd stack/wordpress/wp-content/themes/website
-git init
 git pull
