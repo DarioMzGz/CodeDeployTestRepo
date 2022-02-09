@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /stack/wordpress/wp-content/themes/
+    destination: /root/stack/wordpress/wp-content/themes
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
