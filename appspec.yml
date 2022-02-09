@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /CodeDeployTestRepo/
+  - source: /
     destination: /stack/wordpress/wp-content/themes/
 hooks:
   BeforeInstall:
