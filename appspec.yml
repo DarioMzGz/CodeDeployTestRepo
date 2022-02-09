@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /root/stack/wordpress/wp-content/themes
+    destination: /home/bitnami/stack/wordpress/wp-content/themes
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
